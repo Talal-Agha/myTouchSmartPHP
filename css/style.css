@@ -1,0 +1,152 @@
+     body,html{
+      font-family: Montserrat, sans-serif;
+     }
+	 .black-background{
+		 background-color:black;
+	 }
+  .navbar-top {
+    margin-bottom: 0;
+    z-index: 999;
+    border: transparent;
+    display: inline-block;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  background: black; 
+  padding:15px;
+  }
+  .navbar-top>.container-fluid{
+  width:100%;
+  }
+  .navbar-top, .collapse .navbar-collapse{
+  height: 80px !important;
+  width: 100%;
+  }
+  .navbar-top li a, .navbar .navbar-brand {
+    color: #fff !important;
+    background-color: black !important;
+  }
+  .navbar-default .navbar-toggle:hover {
+    background-color: black;
+  }
+  .navbar-default .navbar-collapse {
+    background-color: black;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: white !important;
+  }
+  .navbar-nav{
+    float: none !important;
+    margin: 0 auto;
+    width: 490px;
+  }
+  .navbar-top-nav>li {
+    margin:auto;
+    background:black;
+  }
+  .navbar-top-nav>li>a {
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+  display: inline-block;
+    letter-spacing: .1em;
+    -moz-transition: color .25s linear;
+    -o-transition: color .25s linear;
+    -webkit-transition: color .25s linear;
+    transition: color .25s linear;
+  }
+  .navbar-brand{
+    padding:0;
+  }  
+  .navbar-brand img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36%;
+  }
+  .navbar-top-nav li a:hover, .navbar-top-nav li.active a {
+    color: #9d9d9d !important;
+    background-color:black !important;
+  }
+  .navbar-top .dropdown-menu {
+    background-color: black;
+  }
+
+  div.tile{
+	  margin:10px;
+	  overflow:hidden;
+	  display: flex;
+  }
+  div.tile img{
+	  width:100%;
+  }
+  .content{
+	  position:relative;
+	  display:inline-block;
+	  height:100%;
+  }
+  div.tile .content p{
+	  margin:5px;
+	  color:#797979;
+  }
+  div.tile .content button{
+   position: absolute;
+   right:    15px;
+   bottom:   0;
+  }
+  img.index-main-image{
+	  width:100%;
+  }
+  div.shop-carousel{
+	  margin:10px;
+  }
+  .slick-slide{
+	  text-align:center;
+  }
+  .prod-title{
+    color: #696969;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .price{
+    color: black;
+    font-weight: bold;
+    font-size: 12px; 
+    margin:2px;
+  }
+  .shop-button{
+    background:black;
+    color:white;
+    border:0;
+    border-radius: 20px;
+    padding: 6px 15px;  
+  }
+.product-box-bar{
+  width:100%;
+}
+.product-box{
+  text-align:center;
+}
+img.center-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ul.feature-list{
+	color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+ul.feature-list li{
+    margin: 5px 0px;
+}
+.feature-heading{
+	color: white;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
